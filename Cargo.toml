@@ -13,3 +13,6 @@ opt-level = 3
 # Uncomment to profile on Linux:
 # debug = true
 # lto = false
+
+[replace]
+"backtrace:0.3.0" = { git = "https://github.com/alexcrichton/backtrace-rs" }
